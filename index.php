@@ -4,18 +4,27 @@
 	<title>My Online Shop</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css" media="all">
 </head>
-<body>
+<body>	
 	<div class="main_wrapper">
 
-		<div>This is Header!</div>
+		<div class="header_wrapper">
 
-		<div>This is menu bar!</div>
+			<img id="logo" src="images/logo.png">
+			<img id="banner" src="images/banner.png">
 
-		<div>This is side bar!</div>
+			<div>This is menu bar!</div>
 
-		<div>This is content area!</div>
+		</div>
 
-		<div>This is the footer!</div>
+		<div class="content_wrapper">
+
+			<div id="sidebar">This is side bar!</div>
+
+			<div id="content_area">This is content area!</div>
+
+		</div>
+
+		<div id="footer">This is the footer!</div>
 	</div>
 </body>
 </html>

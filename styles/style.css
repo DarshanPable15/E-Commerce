@@ -27,3 +27,47 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {background: skyblue;} 
+
+.main_wrapper {
+	width:1000px;
+	height: auto;
+	margin: auto;
+}
+
+.header_wrapper {
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+}
+
+#logo {float: left; height: 120px; width: 350px;}
+
+#banner {float: right; height: 120px; width: 650px;}
+
+.content_wrapper {
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	background: pink;
+}
+
+#content_area {
+	width: 1000px;
+	height: 800px;
+	float: right;
+	background: pink;
+}
+
+#sidebar {
+	width: 200px;
+	height: 800px;
+	background: black;
+	float: left;
+}
+
+#footer {
+	width: 1000px;
+	height: 100px;
+	background:grey;
+	clear: both;
+}
