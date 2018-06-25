@@ -12,9 +12,9 @@
 			<img id="logo" src="images/logo.png">
 			<img id="banner" src="images/banner.png">
 
-			<div>This is menu bar!</div>
-
 		</div>
+
+		<div class="menubar">This is menu bar!</div>
 
 		<div class="content_wrapper">
 

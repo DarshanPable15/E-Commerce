@@ -36,13 +36,20 @@ body {background: skyblue;}
 
 .header_wrapper {
 	width: 1000px;
-	height: 150px;
+	height: 100px;
 	margin: auto;
 }
 
 #logo {float: left; height: 120px; width: 350px;}
 
 #banner {float: right; height: 120px; width: 650px;}
+
+.menubar {
+	width: 1000px;
+	height: 50px;
+	background: grey;
+	color: white;
+}
 
 .content_wrapper {
 	width: 1000px;
@@ -52,7 +59,7 @@ body {background: skyblue;}
 }
 
 #content_area {
-	width: 1000px;
+	width: 800px;
 	height: 800px;
 	float: right;
 	background: pink;
