@@ -51,6 +51,32 @@ body {background: skyblue;}
 	color: white;
 }
 
+#menu {
+	padding: 0;
+	margin: 0;
+	line-height: 35px;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+}
+
+#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+	margin: 8px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+}
+
+#menu a:hover {
+	color: orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
 .content_wrapper {
 	width: 1000px;
 	height: 800px;
