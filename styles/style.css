@@ -65,8 +65,8 @@ body {background: skyblue;}
 #menu a {
 	text-decoration: none;
 	color: white;
-	padding: 12px;
-	margin: 8px;
+	padding: 8px;
+	margin: 5px;
 	font-size: 18px;
 	font-family: COMIC SANS MS;
 }
@@ -82,6 +82,13 @@ body {background: skyblue;}
 	height: 800px;
 	margin: auto;
 	background: pink;
+}
+
+#form {
+	float: right;
+	padding:0px;
+	display: inline;
+	line-height: -10px;
 }
 
 #content_area {

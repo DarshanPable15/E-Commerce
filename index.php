@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
 	<title>My Online Shop</title>
@@ -9,8 +9,8 @@
 
 		<div class="header_wrapper">
 
-			<img id="logo" src="images/logo.png">
-			<img id="banner" src="images/banner.png">
+			<img id="logo" src="" alt="LOGO HERE">
+			<img id="banner" src="BANNER HERE">
 
 		</div>
 
@@ -23,6 +23,14 @@
 				<li><a href="#">Shopping Cart</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
+
+			<div id="form">
+				<form method="get" action="results.php" enctype="mutlipart/form-data">
+					<input type="text" name="user_query" placeholder="Search a product">
+					<input type="submit" name="search" value="Search">
+				</form>
+			</div>
+			
 		</div>
 
 		<div class="content_wrapper">
