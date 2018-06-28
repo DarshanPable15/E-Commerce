@@ -35,7 +35,31 @@
 
 		<div class="content_wrapper">
 
-			<div id="sidebar">This is side bar!</div>
+			<div id="sidebar">
+				<div id="sidebar_title">Categories</div>
+
+					<ul id="cats">
+						<li><a href="#">Laptop</a></li>	
+						<li><a href="#">Desktop</a></li>	
+						<li><a href="#">Mobile</a></li>	
+						<li><a href="#">Camera</a></li>	
+						<li><a href="#">Tablet</a></li>	
+						<li><a href="#">Smart Watch</a></li>	
+					</ul>
+
+				<div id="sidebar_title">Brands</div>
+
+					<ul id="cats">
+						<li><a href="#">Apple</a></li>	
+						<li><a href="#">Samsung</a></li>	
+						<li><a href="#">Lenovo</a></li>	
+						<li><a href="#">HP</a></li>	
+						<li><a href="#">Dell</a></li>	
+						<li><a href="#">SONY</a></li>	
+					</ul>
+
+				</div>
+			</div>
 
 			<div id="content_area">This is content area!</div>
 
