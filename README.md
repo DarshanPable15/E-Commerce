@@ -1,7 +1,7 @@
 # E-Commerce
 An E-Commerce Page developed using PHP and MySQL 
 
-#How to use source code
+# How to use source code
 The following steps can be taken in order to use the source code correctly. 
 
 1) Go to localhost/phpmyadmin
