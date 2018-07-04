@@ -79,7 +79,7 @@ include("functions/functions.php");
 			
 			<div id="shopping_cart"> 
 					
-					<span style="float:right; font-size:17px; padding:5px; line-height:40px;">
+					<span style="float:right; font-size:18px; padding:5px; line-height:40px;">
 					
 					<?php 
 					if(isset($_SESSION['customer_email'])){
@@ -90,22 +90,8 @@ include("functions/functions.php");
 					}
 					?>
 					
+					
 					<b style="color:yellow">Shopping Cart -</b> Total Items: <?php total_items();?> Total Price: <?php total_price(); ?> <a href="cart.php" style="color:yellow">Go to Cart</a>
-					
-					
-					<?php 
-					if(!isset($_SESSION['customer_email'])){
-					
-					echo "<a href='checkout.php' style='color:orange;'>Login</a>";
-					
-					}
-					else {
-					echo "<a href='logout.php' style='color:orange;'>Logout</a>";
-					}
-					
-					
-					
-					?>
 					
 					
 					
@@ -114,9 +100,18 @@ include("functions/functions.php");
 			
 				<div id="products_box">
 				
-				<?php getPro(); ?>
-				<?php getCatPro(); ?>
-				<?php getBrandPro(); ?>
+				<?php 
+				if(!isset($_SESSION['customer_email'])){
+					
+					include("customer_login.php");
+				}
+				else {
+				
+				include("payment.php");
+				
+				}
+				
+				?>
 				
 				</div>
 			
